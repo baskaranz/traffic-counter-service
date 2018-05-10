@@ -52,14 +52,13 @@ For the input file containing the following data
 
 The output that will get generated in the output.txt file for the above inputs are
 
-No. of cars seen in total : 398
-No. of cars seen in each day : 
-2016-12-08 134
-2016-12-09 4
-2016-12-05 81
-2016-12-01 179
-3 half hours that saw the most cars : 
-2016-12-01T07:30:00 46
-2016-12-01T08:00:00 42
-2016-12-08T18:00:00 33
-    
+No. of cars seen in total : 398  
+No. of cars seen in each day :   
+2016-12-08 134  
+2016-12-09 4  
+2016-12-05 81  
+2016-12-01 179  
+3 half hours that saw the most cars :  
+2016-12-01T07:30:00 46  
+2016-12-01T08:00:00 42  
+2016-12-08T18:00:00 33  
