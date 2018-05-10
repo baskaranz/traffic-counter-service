@@ -67,3 +67,7 @@ reload
 update
 test
 exit
+clean
+compile
+test
+exit

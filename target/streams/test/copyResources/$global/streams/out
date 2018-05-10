@@ -1,2 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/baskaran/Personal/traffic-counter-service/src/test/resources/empty_test_dataset.txt,/Users/baskaran/Personal/traffic-counter-service/target/scala-2.12/test-classes/empty_test_dataset.txt)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	(/Users/baskaran/Personal/traffic-counter-service/src/test/resources/test_dataset.txt,/Users/baskaran/Personal/traffic-counter-service/target/scala-2.12/test-classes/test_dataset.txt)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/baskaran/Personal/traffic-counter-service/src/test/resources/invalid_test_dataset.txt,/Users/baskaran/Personal/traffic-counter-service/target/scala-2.12/test-classes/invalid_test_dataset.txt)[0m

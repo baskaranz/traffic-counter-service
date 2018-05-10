@@ -1,0 +1,28 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/ParserSpec.scala:9:25: not found: value invalidFilePath[0m
+[0m[[0m[31merror[0m] [0m[0m    FileParser.readFile(invalidFilePath).isFailure should equal(true)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:15:25: not found: value filePath[0m
+[0m[[0m[31merror[0m] [0m[0m    FileParser.readFile(filePath) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:16:67: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.seek.model.CarEntry][0m
+[0m[[0m[31merror[0m] [0m[0m      case Success(carEntries) => TrafficCounter.getTotalNoOfCars(carEntries) should equal(398)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:23:25: not found: value filePath[0m
+[0m[[0m[31merror[0m] [0m[0m    FileParser.readFile(filePath) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:24:67: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.seek.model.CarEntry][0m
+[0m[[0m[31merror[0m] [0m[0m      case Success(carEntries) => TrafficCounter.getTopNHalfHours(carEntries, n).head.count should equal(46)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:30:25: not found: value filePath[0m
+[0m[[0m[31merror[0m] [0m[0m    FileParser.readFile(filePath) match {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/baskaran/Personal/traffic-counter-service/src/test/scala/TrafficCounterSpec.scala:31:73: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[com.seek.model.CarEntry][0m
+[0m[[0m[31merror[0m] [0m[0m      case Success(carEntries) => TrafficCounter.getNoOfCarsInGivenDays(carEntries).size should equal(4)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

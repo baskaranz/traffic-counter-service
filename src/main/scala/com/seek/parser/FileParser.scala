@@ -14,8 +14,8 @@ object FileParser extends LazyLogging {
   /** Read the given text file and output the object to be used for the functions to generate the outputs.
     *  @return  Try[[List[CarEntry]] object wrapped in a try.
     */
-  def readFile(filepath: String): Try[List[CarEntry]] = Try {
-    val bufferedSource = Source.fromFile(filepath)
+  def readFile(fileName: String): Try[List[CarEntry]] = Try {
+    val bufferedSource = Source.fromResource(fileName)
     if (bufferedSource.isEmpty) {
       logger.warn("Input file is empty")
       throw new IllegalArgumentException
@@ -28,7 +28,7 @@ object FileParser extends LazyLogging {
         val maybeCount = Try(countStr.toInt).toOption
         (maybeTimestampStr, maybeCount) match {
           case (Some(timestamp), Some(count)) =>  Some(CarEntry(timestamp, count))
-          case _ => None
+          case _ => throw new IllegalArgumentException
         }
       }
       bufferedSource.close
