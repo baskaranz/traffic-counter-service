@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTrafficCounterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgenerateOutput [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should read the input file and generate the result in output file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetTotalNoOfCars [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should output the correct number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetTopNHalfHours[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should output the correct number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetNoOfCarsInGivenDays [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should output the correct car entries[0m[0m

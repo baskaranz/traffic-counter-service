@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParserSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFileParser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw error while parsing file from invalid path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFileParser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw error while parsing file with invalid dataset[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFileParser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw error while parsing empty file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFileParser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should read the file with valid data[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFileParser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse the timestamp string to Timestamp[0m[0m
